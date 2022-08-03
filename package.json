@@ -1,0 +1,51 @@
+{
+  "name": "react-tv-dimention",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Library ensures proper height, width, font ratio SmartTV Tizen, WebOS: 1920x1080",
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "types": "./lib/esm/index.d.ts",
+  "files": [
+    "/lib"
+  ],
+  "scripts": {
+    "prepack": "yarn build",
+    "prebuild": "yarn clean",
+    "build": "rollup -c",
+    "clean": "rimraf lib my-react-package-*.tgz",
+    "watch": "rollup -cw"
+  },
+  "keywords": [],
+  "author": "Nguyễn Sỹ Thành Công <thanhcongns94@gmail.com>",
+  "peerDependencies": {
+    "react": "*"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.5",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.49.0",
+    "rollup-obfuscator": "^3.0.1",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "tslib": "^2.4.0",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "@types/react": "*",
+    "platform-smart-tv": "git+https://github.com/joy-team-project/platform-smart-tv.git#v1.0.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/react-4-smart-tv/react-tv-dimention.git"
+  },
+  "bugs": {
+    "url": "https://github.com/react-4-smart-tv/react-tv-dimention/issues"
+  },
+  "homepage": "https://github.com/react-4-smart-tv/react-tv-dimention#readme"
+}
