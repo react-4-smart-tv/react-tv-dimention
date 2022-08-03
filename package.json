@@ -1,6 +1,6 @@
 {
-  "name": "react-tv-dimention",
-  "version": "1.0.0",
+  "name": "@react4tv/react-tv-dimention",
+  "version": "1.0.1",
   "license": "MIT",
   "description": "Library ensures proper height, width, font ratio SmartTV Tizen, WebOS: 1920x1080",
   "main": "./lib/cjs/index.js",
@@ -16,7 +16,16 @@
     "clean": "rimraf lib my-react-package-*.tgz",
     "watch": "rollup -cw"
   },
-  "keywords": [],
+  "keywords": [
+    "tv",
+    "smarttv",
+    "smart tv",
+    "javascript",
+    "tizen",
+    "webos",
+    "samsung",
+    "lg"
+  ],
   "author": "Nguyễn Sỹ Thành Công <thanhcongns94@gmail.com>",
   "peerDependencies": {
     "react": "*"
@@ -35,7 +44,7 @@
   },
   "dependencies": {
     "@types/react": "*",
-    "platform-smart-tv": "git+https://github.com/joy-team-project/platform-smart-tv.git#v1.0.0"
+    "@react4tv/smart-tv-platform": "^1.0.0"
   },
   "directories": {
     "lib": "lib"
