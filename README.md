@@ -64,3 +64,11 @@ const App = withDimentionContext(AppContainer);
 ReactDOM.render(<App />, "root");
 
 ```
+
+## Example
+
+![alt text](https://github.com/react-4-smart-tv/react-tv-dimention/blob/main/img/1.png?raw=true)
+
+
+![alt text](https://github.com/react-4-smart-tv/react-tv-dimention/blob/main/img/2.png?raw=true)
+
