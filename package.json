@@ -13,7 +13,7 @@
     "prepack": "yarn build",
     "prebuild": "yarn clean",
     "build": "rollup -c",
-    "clean": "rimraf lib my-react-package-*.tgz",
+    "clean": "rimraf lib @react4tv/react-tv-dimention-*.tgz",
     "watch": "rollup -cw"
   },
   "keywords": [
